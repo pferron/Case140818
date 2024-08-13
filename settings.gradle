@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://artifactory.cloud.capitalone.com/artifactory/maven-internalfacing'
+        }
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'sdp-consumer'
